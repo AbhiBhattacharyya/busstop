@@ -6,7 +6,7 @@ bus stop of the bus line that has the most stops. Bus stops are not sorted in an
 ### This application fetches the relevant data by calling below APIs
 http://www.trafiklab.se/api/sl-hallplatser-och-linjer-2
 
-## How to build run the application
+## How to build and run the application
 #### build with  - mvn clean install
 #### run com.ab.assignment.sbab.busstop.BusstopApplication
 #### open your Browser and run - http://localhost:8080/getBusTops
