@@ -8,8 +8,17 @@ http://www.trafiklab.se/api/sl-hallplatser-och-linjer-2
 
 ## How to build and run the application
 #### build with  - mvn clean install
-#### run com.ab.assignment.sbab.busstop.BusstopApplication
-#### open your Browser and run - http://localhost:8080/getBusTops
-OR curl -GET http://localhost:8080/get from terminal
+#### run below command from terminal after build from project root directory
+java -jar target/busstop-0.0.1-SNAPSHOT.jar
+
+#### open your Browser and run - http://localhost:8099/getBusTops
+OR curl -GET http://localhost:8099/getBusTops from terminal
+
+### Troubleshoot
+
+This application runs on port 8099.
+If any of your local application running on the same port please modify the property server.port
+in application.properties. Set it to any available port and re-build the applicatuon.
+
 
 
