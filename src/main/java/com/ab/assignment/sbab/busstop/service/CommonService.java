@@ -6,7 +6,6 @@ import com.ab.assignment.sbab.busstop.model.line.LineResult;
 import com.ab.assignment.sbab.busstop.model.response.ResponseBusStop;
 import com.ab.assignment.sbab.busstop.model.response.StopsInLine;
 import com.ab.assignment.sbab.busstop.model.stop.StopResponseOfPwsResult;
-import com.ab.assignment.sbab.busstop.util.DataUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -22,9 +21,6 @@ public class CommonService {
 
     @Autowired
     BusStopService busStopService;
-
-    @Autowired
-    DataUtil dataUtil;
 
 
     public ResponseBusStop getFinalResult() throws ParseException {
